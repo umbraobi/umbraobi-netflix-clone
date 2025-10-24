@@ -26,19 +26,18 @@ This project was built using the following technologies and tools:
 
 ### Authentication & Security
 - **[Firebase Authentication](https://firebase.google.com/docs/auth)** – Handles user sign-up, login, and session management using secure tokens  
-  - Includes helpers for `signup` and `login` within [`src/firebase.js`](src/firebase.js)  
-
+  - Includes helpers for `signup` and `login` within [`src/firebase.js`](src/firebase.js)
+ 
+    
 ### Data & APIs
 - **[TMDB API](https://www.themoviedb.org/documentation/api)** – Provides live movie lists, posters, and data for the UI  
-
-### Frontend Styling
-- **Vanilla CSS** – Custom handcrafted responsive design for all components  
-
-### Development Tools
-- **[Axios](https://axios-http.com/)** – For API requests to TMDB  
+- **REST API Integration** – Data is fetched using RESTful endpoints from TMDB  
+  - Endpoints include:  
+    - `GET /movie/popular` – Fetches trending movies  
+    - `GET /movie/:id/videos` – Retrieves movie trailers  
+  - **Tools Used:** Axios (for requests), Fetch API (optional for native calls)
 - **[ESLint](https://eslint.org/)** – For maintaining clean and consistent code style  
-
----
+- **Vanilla CSS** – Custom handcrafted responsive design for all components  
 
 ## Features
 
