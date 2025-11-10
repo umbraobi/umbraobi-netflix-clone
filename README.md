@@ -3,7 +3,7 @@
 A minimal **React + Vite** movie web app inspired by Netflix.  
 It lets users sign up, browse movie lists powered by TMDB, and stream trailers seamlessly — with Firebase authentication and responsive design.  
 
-**Live Demo:** (https://your-netflix-clone-link.vercel.app/)
+**Live Demo:** (https://umbra-netflis.netlify.app/)
 
 ## 🖼️ Screenshots
 
